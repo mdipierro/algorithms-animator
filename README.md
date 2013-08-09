@@ -1,0 +1,34 @@
+# Algorithms Animator
+
+This is a Python application that implements and animates interactively those algorithms that are normally covered in an undergraduate course on the topic. It includes:
+
+- Insertion Sort
+- Quicksort
+- Mergesort
+- AVL Tree Search/Insert/Rebalance
+- Depth First Search
+- Breadth First Search
+- Topological Sort
+- Prim
+- Kruskal
+- Dijkstra
+- LCS
+- Huffman-Fano
+
+Documentation and screenshots can be found in docs/csc321notes.pdf
+
+It is extensible. All the API are exposed.
+
+This program was originally designed in 2003 for teaching "Design and Analysis of Algorithms" at DePaul University. All the algorithms in the source code (src/csc321algorithms.py) are equivalent line-by-line to the pseudo-code in the MIT CLRS "Introduction to Algorithms" book.
+
+Re-released under BSD license (original was GPL).
+
+On windows start it with:
+
+    bin/AlgorithmsAnimator.exe
+
+On other systems with Python 2.5 or later (2.x):
+ 
+    cd src
+    python AlgorithmsAnimator.py
+
